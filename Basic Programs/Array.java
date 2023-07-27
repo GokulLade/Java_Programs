@@ -1,7 +1,6 @@
                 // Array Program in java
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class Array {
     public static void main(String[] args)
