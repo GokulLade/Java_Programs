@@ -3,8 +3,6 @@ class This{
     
     public static void main(String[] args) 
     {
-        /*Refers the current object */
-        
         This r=new This();
         System.out.println(r);
         r.show();
