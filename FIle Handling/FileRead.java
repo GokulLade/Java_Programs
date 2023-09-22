@@ -31,11 +31,12 @@ public class FileRead {
             System.out.println(i);
         }
         
-        
-    }
+  }
 
-    //Second type to read Data from file
-    public static void Dis()
+   
+  //Second type to read Data from file
+    
+  public static void Dis()
     {
         try
         {
@@ -52,6 +53,7 @@ public class FileRead {
         {
             System.out.println(e);
         }
+      
     }
     
 }
