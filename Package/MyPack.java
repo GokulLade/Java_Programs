@@ -14,7 +14,7 @@ public class MyPack {
         System.out.println("Enter the Second Number");
         b=sc.nextInt();
 
-        System.out.println("Addition of two number is="+(a+b));
+        System.out.println("The Addition of two number is="+(a+b));
     }
     
 }
