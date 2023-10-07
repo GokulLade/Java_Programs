@@ -18,5 +18,6 @@ public class MyPack {
     }
     
 }
+
 /*To create Package write command = javac -d . class_name.java */
 /*To run program write command = java package_name.class_name */
