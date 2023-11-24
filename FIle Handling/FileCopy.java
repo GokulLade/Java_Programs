@@ -1,8 +1,5 @@
                 /*File Copy Demo Program */
-
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class FileCopy {
     public static void main(String[] args)throws IOException
