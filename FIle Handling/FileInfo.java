@@ -8,7 +8,7 @@ public class FileInfo {
         File f=new File("C:\\Users\\91762\\Program\\JAVA\\FIle Handling\\File.txt");
         if(f.exists())
         {
-            System.out.println("File Name: "+f.getName());
+            System.out.println("The File Name is : "+f.getName());
             System.out.println("File Location: "+f.getAbsolutePath());
             System.out.println("File is Readable: "+f.canRead());
             System.out.println("File is Writeable: "+f.canWrite());
