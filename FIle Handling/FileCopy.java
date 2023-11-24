@@ -7,8 +7,11 @@ import java.io.IOException;
 public class FileCopy {
     public static void main(String[] args)throws IOException
     {
-        FileInputStream r=new FileInputStream("C:\\Users\\91762\\Program\\JAVA\\FIle Handling\\File.txt");
-        FileOutputStream w=new FileOutputStream("C:\\Users\\91762\\Program\\JAVA\\FIle Handling\\Files.txt");
+        File fc=new File("A.txt");
+        FileInputStream r=new FileInputStream(f);
+
+        File fw=new File("B.txt");
+        FileOutputStream w=new FileOutputStream(fw);
 
         int i;
         while((i=r.read())!= -1)
