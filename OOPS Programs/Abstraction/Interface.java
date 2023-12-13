@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Interface {
     public static void main(String[] args)
     {
-        Om o=new Om();
+        Om1 o=new Om1();
         o.input();
         System.out.println("**************************************************************************");
         o.output();
@@ -16,7 +16,7 @@ interface Clint{
     void input();//public and abstract
     void output();//public and abstract
 }
-class Om implements Clint{
+class Om1 implements Clint{
     String name; double Sal;
     public void input()
     {

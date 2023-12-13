@@ -2,13 +2,13 @@
 class ObjectDemo {
     public static void main(String args[])
     {
-        Show s=new Show();  //object created
+        Show_1 s=new Show_1();  //object created
 
         Show2 s2=new Show2();
         s2.show();      //Function calling
     }    
 }
-class Show
+class Show_1
 {
     {
         System.out.println("Object Demo Program");

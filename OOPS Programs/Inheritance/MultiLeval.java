@@ -24,7 +24,7 @@ class Input2 extends Input1{            //Sub1 class
     }
 }
 
-class Add extends Input2{               //Sub2 class
+class Add_2 extends Input2{               //Sub2 class
     void add()
     {
         int c=a+b;
@@ -36,7 +36,7 @@ class Add extends Input2{               //Sub2 class
 class MultiLeval{
     public static void main(String[] args) 
     {
-        Add a1=new Add();
+        Add_2 a1=new Add_2();
         a1.In1();
         a1.In2();
         a1.add();

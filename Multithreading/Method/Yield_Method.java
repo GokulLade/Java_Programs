@@ -2,15 +2,15 @@
 public class Yield_Method {
     public static void main(String[] args) 
     {
-        Thread_1 t1=new Thread_1();
-        Thread_2 t2=new Thread_2();
+        Thread1 t1=new Thread1();
+        Thread2 t2=new Thread2();
         
         t1.start();
         t2.start();
     }
     
 }
-class Thread_1 extends Thread{
+class Thread1 extends Thread{
     @Override
     public void run()
     {
@@ -22,7 +22,7 @@ class Thread_1 extends Thread{
         }
     } 
 }
-class Thread_2 extends Thread{
+class Thread2 extends Thread{
     @Override
     public void run()
     {

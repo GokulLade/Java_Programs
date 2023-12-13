@@ -3,21 +3,21 @@
 class InterfaceExtend{
     public static void main(String[] args)
     {
-        Om r=new AddSub();
+        Om2 r=new AddSub();
         r.add();
         r.sub();
         
     }
 }
-interface Ram{
+interface Ram1{
    
     void add();
 }
-interface Om extends Ram{   //Extends interface
+interface Om2 extends Ram1{   //Extends interface
      
     void sub();
 }
-class AddSub implements Om{
+class AddSub implements Om2{
     int a=10; int b=20;
     @Override
     public void add()

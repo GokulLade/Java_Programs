@@ -5,7 +5,7 @@ public class FileCopy {
     public static void main(String[] args)throws IOException
     {
         File fc=new File("A.txt");
-        FileInputStream r=new FileInputStream(f);
+        FileInputStream r=new FileInputStream(fc);
 
         File fw=new File("B.txt");
         FileOutputStream w=new FileOutputStream(fw);

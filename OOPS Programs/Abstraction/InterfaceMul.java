@@ -11,13 +11,13 @@ public class InterfaceMul {
     }
     
 }
-interface Om{
+interface Om3{
     void Name();
 }
-interface Ram{
+interface Ram2{
     void Name();
 }
-class Names implements Om,Ram{
+class Names implements Om3,Ram2{
     public void Name()
     {
         System.out.println("My Name is Om and Also you can calling me Ram because my nick name is Ram");

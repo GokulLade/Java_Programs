@@ -1,7 +1,7 @@
                 /*Using Hierarchical Inheritance Demo Program */
 import java.util.*;
 
-class Input{
+class Input_1{
     int a,b;
     void In1()
     {
@@ -17,14 +17,14 @@ class Input{
     }
 }
 
-class Add extends Input{
+class Add_1 extends Input_1{
     void add()
     {
         System.out.print("The Addition of two Number is="+(a+b));
     }
 }
 
-class Sub extends Input{
+class Sub_1 extends Input_1{
     void sub()
     {
         System.out.print("The Subtraction of two Number is"+(a-b));
@@ -32,14 +32,14 @@ class Sub extends Input{
     }
 }
 
-class Mul extends Input{
+class Mul extends Input_1{
     void mul()
     {
         System.out.print("The Multiplication of two number is"+(a*b));
     }
 }
 
-class Div extends Input{
+class Div extends Input_1{
     void div()
     {
         System.out.print("The Division of two Number is"+(a/b));
@@ -49,11 +49,11 @@ class Div extends Input{
 class Hierarchical {
     public static void main(String[] args) 
     {
-        Add a=new Add();
+        Add_1 a=new Add_1();
         a.In1();
         a.add();
 
-        Sub s=new Sub();
+        Sub_1 s=new Sub_1();
         s.sub();
 
         Mul m=new Mul();

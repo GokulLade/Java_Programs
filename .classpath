@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" />
+	<classpathentry kind="src" path="Basic Programs" />
+	<classpathentry kind="src" path="Collections Framework" />
+	<classpathentry kind="src" path="Exception Handling" />
+	<classpathentry kind="src" path="FIle Handling" />
+	<classpathentry kind="src" path="Keyword Programs" />
+	<classpathentry excluding="Method/" kind="src" path="Multithreading" />
+	<classpathentry kind="src" path="Multithreading/Method" />
+	<classpathentry kind="src" path="OOPS Programs/Abstraction" />
+	<classpathentry kind="src" path="OOPS Programs/Class" />
+	<classpathentry kind="src" path="OOPS Programs/Encapsulation" />
+	<classpathentry kind="src" path="OOPS Programs/Inheritance" />
+	<classpathentry kind="src" path="OOPS Programs/Object" />
+	<classpathentry kind="src" path="OOPS Programs/Polymorphism" />
+	<classpathentry kind="src" path="Package" />
+	<classpathentry kind="output" path="bin" />
+</classpath>
