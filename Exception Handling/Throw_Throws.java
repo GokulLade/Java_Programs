@@ -14,6 +14,8 @@ public class Throw_Throws {
        
         
     }
+  
+  //throws example Program
     void div(int a,int b) throws ArithmeticException
     {
         if(b==0)
