@@ -3,12 +3,12 @@ import java.io.File;
 public class FileRename{
     public static void main(String[] args) 
     {
-        File f=new File("C:\\Users\\91762\\Program\\JAVA\\FIle Handling\\Files.txt");
-        File r=new File("C:\\Users\\91762\\Program\\JAVA\\FIle Handling\\File.txt");
+        File f1=new File("C:\\Users\\91762\\Program\\JAVA\\FIle Handling\\Files.txt");
+        File f2=new File("C:\\Users\\91762\\Program\\JAVA\\FIle Handling\\File.txt");
 
-        if(f.exists())
+        if(f1.exists())
         {
-            System.out.println(f.renameTo(r));
+            System.out.println(f1.renameTo(f2));
         }
         else
         {
